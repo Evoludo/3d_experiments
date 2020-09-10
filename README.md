@@ -21,4 +21,4 @@ Playing about with 3D maths. Renders 3D meshes without any 3D libraries. Maths w
 
 * 0: mesh moves on its own as if by magic
 * 1: god mode
-** Move the mesh with the arrow keys, and page-up / page-down
+  * Move the mesh with the arrow keys, and page-up / page-down

@@ -10,7 +10,7 @@ class Mesh(object):
     def __init__(self, vertices, faces):
         for vertex in vertices:
             if type(vertex) != tuple or len(vertex) != 3:
-                raise ValueError(f'All vertices must be a 3-tuple of coordinates, but this one is not: {vertex}')
+                raise ValueError(f'All vertices must be a 3-tuple of dimensions, but this one is not: {vertex}')
 
         for face in faces:
             if type(face) != tuple or len(face) != 3:
